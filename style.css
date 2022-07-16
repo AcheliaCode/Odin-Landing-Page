@@ -1,12 +1,16 @@
+
+
 body {
     display : flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 /*Première partie*/
 
 .top {
+    height: 550px;
     align-items: center;
     display : flex;
     flex-direction: column;
@@ -14,29 +18,28 @@ body {
 }
 
 .first-header {
-    display: flex;
-    gap:100px;
-    align-items: center;
-    font-size:48px;
-    font-weight: 900;
+    display: flex; /*précisez*/
+    gap: 100px;
+    font-size: 48px;
+    font-weight: 900px;
     color: #F9FAF8;
 }
 
-.logo {
+.logo { /*gauche*/
     font-size: 24px;
-    color:#F9FAF8;
+    color: #F9FAF8;
+
 }
 
-.links {
-    gap:15px;
-    margin-top:20px;
-    display: flex;
+.links { /*droite*/
+    gap: 15px;
+    margin-top: 20px;
 }
 
 .links a {
     text-decoration: none;
     font-size: 18px;
-    color:#E5E7EB;
+    color: #E5E7EB;
 }
 
 .first {
@@ -45,89 +48,103 @@ body {
 
 .first-container {
     padding-bottom: 100px;
-    width:470px;
+    width: 470px;
+    color: #E5E7EB;
+    font-size: 25px;
+    margin-right: 50px;
 }
 
+.first-header {
+    margin-bottom: 70px;
+}
 .first-header-subtext {
     font-size: 18px;
-    color: #E5E7EB;
+    color: lightgray;
 }
 
 .first-button {
-    background-color:#3882F6;
-    border-color:#3882F6;
-    border-radius: 10px;
-    color:#F9FAF8;
-    padding:0;
-    width:100px;
-    height:30px;
+    padding: 10px 40px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: none;
+    border: 1px solid #3882F6;
+    font-size: 20px;
 }
 
-.placeholder{
+.placeholder {
     text-align: center;
-    color:#F9FAF8;
-    width:500px;
-    height:200px;
+    color: #F9FAF8;
+    width: 500px;
+    height: 200px;
     background-color: gray;
 }
 
 .placeholder p {
-    margin:90px 0 0 0;
+    margin: 90px;
 }
 
 
 /*Deuxième partie*/
-
 .second-header {
     text-align: center;
-    font-size:36px;
-    font-weight: 900;
-    color:#1F2937
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937
 }
 
-.images-subtext {
-    display : flex;
+.image-subtext {
+    display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    gap:20px;
-}
-
-.image-subtext p {
-    width:180px;
-    text-align: center;
+    align-items: center;
+    width: 200px;
+    gap: 5px;
 }
 
 .image-subtext img {
-    height:200px;
     border-radius: 10px;
-    border:solid blue 2px;
-    width:200px;
+    border: solid blue 2px;
+    width: 175px;
+    height: 175px;
 }
 
+.images {
+    display: flex;
+    align-items: center;
+}
 
 /*Troisième partie*/
 
 .third {
     display : flex;
     flex-direction: column;
-    background-color: #E5E7EB;
+    background-color: lightgray;
     justify-content: center;
     text-align: center;
+    height: 400px;
 }
 
 .quote {
-    margin-top:200px;
-    margin-bottom:auto;
+    margin-top: 100px;
     font-size: 36px;
-    font-style:italic;
-    font-weight:400;
-    color:#1F2937
+    font-style: italic;
+    font-weight: 400px;
+    color:#1F2937;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
 }
 
 .quoter {
     padding-left:150px;
     flex-basis: 200px;
+    font-size: x-large;
+    font-weight: bolder;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 100px;
+    margin-bottom: 100px;
 }
 
 
@@ -147,27 +164,30 @@ body {
 }
 
 .fourth-text {
-display : flex;
+display: flex;
 flex-direction: column;
 }
 
 .fourth-header {
     font-weight: 900;
-    font-size: 18px;
+    font-size: 20px;
     margin:40px 0 0 0;
 }
 
 .fourth-subtext {
     margin:0 0 40px 0;
+    color: #E5E7EB;
 }
 
 .fourth-button {
     align-self: center;
-    padding:5px 25px 5px 25px;
-    color:#F9FAF8;
     background-color: #3882F6;
-    border-radius: 10px;
-    border-color: #F9FAF8;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 
@@ -181,5 +201,5 @@ flex-direction: column;
 
 .footer p {
     color: #F9FAF8;
-    font-size:10px;
+    font-size: 15px;
 }
