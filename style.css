@@ -1,5 +1,3 @@
-
-
 body {
     display : flex;
     flex-direction: column;
@@ -18,32 +16,35 @@ body {
 }
 
 .first-header {
-    display: flex; /*précisez*/
-    gap: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 440px;
     font-size: 48px;
     font-weight: 900px;
     color: #F9FAF8;
 }
 
-.logo { /*gauche*/
+.logo {
     font-size: 24px;
     color: #F9FAF8;
 
 }
 
-.links { /*droite*/
+.links {
     gap: 15px;
-    margin-top: 20px;
 }
 
 .links a {
     text-decoration: none;
     font-size: 18px;
-    color: #E5E7EB;
+    color: lightgray;
 }
 
 .first {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .first-container {
@@ -77,8 +78,9 @@ body {
     text-align: center;
     color: #F9FAF8;
     width: 500px;
-    height: 200px;
+    height: 220px;
     background-color: gray;
+    margin-bottom: 60px;
 }
 
 .placeholder p {
@@ -87,14 +89,18 @@ body {
 
 
 /*Deuxième partie*/
+.second {
+    height: 500px;
+}
+
 .second-header {
     text-align: center;
     font-size: 36px;
-    font-weight: 900px;
-    color: #1F2937
+    font-weight: bold;
+    color: #1F2937;
 }
 
-.image-subtext {
+.image-subtext  {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,10 +114,20 @@ body {
     width: 175px;
     height: 175px;
 }
+.image-subtext p {
+    width: 150px;
+    text-align: center;
+    color: gray
+}
 
 .images {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+    width: 900px;
+    margin: 10%;
 }
 
 /*Troisième partie*/
