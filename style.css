@@ -142,8 +142,10 @@ body {
 }
 
 .quote {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 100px;
     font-size: 36px;
+    font-weight: lighter;
     font-style: italic;
     font-weight: 400px;
     color:#1F2937;
