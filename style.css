@@ -218,6 +218,6 @@ flex-direction: column;
 }
 
 .footer p {
-    color: #F9FAF8;
-    font-size: 15px;
+    color: lightgray;
+    font-size: 20px;
 }
