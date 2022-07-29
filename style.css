@@ -97,6 +97,7 @@ body {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
+    margin-top: 50px;
     color: #1F2937;
 }
 
@@ -125,7 +126,6 @@ body {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 50px;
     width: 900px;
     margin: 10%;
 }
@@ -160,7 +160,7 @@ body {
     display: flex;
     align-self: flex-end;
     margin-right: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 00px;
 }
 
 
