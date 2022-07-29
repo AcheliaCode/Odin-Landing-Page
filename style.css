@@ -169,12 +169,12 @@ body {
 /*Quatrième partie*/
 
 .fourth {
-    margin:80px 150px 80px 150px;
+    margin:80px 200px 80px 200px;
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-    height:140px;
-    width:1000px;
+    height: 150px;
+    width: 1000px;
     background-color: #3882F6;
     color:#F9FAF8;
     border-radius:5px;
@@ -213,7 +213,7 @@ flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
+    height: 100px;
     background-color: #1F2937;
 }
 
