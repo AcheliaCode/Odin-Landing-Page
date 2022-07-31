@@ -155,7 +155,7 @@ body {
 }
 
 .quoter {
-    padding-left:150px;
+    padding-left: 150px;
     flex-basis: 200px;
     font-size: x-large;
     font-weight: bolder;
@@ -169,7 +169,7 @@ body {
 /*Quatrième partie*/
 
 .fourth {
-    margin:80px 200px 80px 200px;
+    margin: 80px 200px 80px 200px;
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
@@ -177,7 +177,7 @@ body {
     width: 1000px;
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius:5px;
+    border-radius: 5px;
     display: flex;
 }
 
@@ -189,7 +189,7 @@ flex-direction: column;
 .fourth-header {
     font-weight: 900;
     font-size: 20px;
-    margin:40px 0 0 0;
+    margin: 40px 0 0 0;
 }
 
 .fourth-subtext {
