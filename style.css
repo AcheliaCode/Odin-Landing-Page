@@ -6,7 +6,6 @@ body {
 }
 
 /*Première partie*/
-
 .top {
     height: 550px;
     align-items: center;
@@ -132,7 +131,6 @@ body {
 }
 
 /*Troisième partie*/
-
 .third {
     display : flex;
     flex-direction: column;
@@ -168,7 +166,6 @@ body {
 
 
 /*Quatrième partie*/
-
 .fourth {
     margin: 80px 200px 80px 200px;
     justify-content: space-around;
