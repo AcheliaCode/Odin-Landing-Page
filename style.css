@@ -208,9 +208,9 @@ flex-direction: column;
 
 
 .footer {
-    display : flex;
-    justify-content : center;
-    align-items : center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     background-color: #1F2937;
 }
