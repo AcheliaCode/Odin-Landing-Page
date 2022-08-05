@@ -132,7 +132,7 @@ body {
 
 /*Troisième partie*/
 .third {
-    display : flex;
+    display: flex;
     flex-direction: column;
     background-color: lightgray;
     justify-content: center;
@@ -208,9 +208,9 @@ flex-direction: column;
 
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
     height: 100px;
     background-color: #1F2937;
 }
